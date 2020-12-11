@@ -1,29 +1,23 @@
 # Amazing-Shop
 
-## Project setup
+#0 Open repo with command line, then code:
+
+#1 Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+#2 Compiles and hot-reloads for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+#3 Run JSON server
 ```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
+json-server -w bd.json
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### For any questions connect to:
+https://www.linkedin.com/in/anton-vorobiov-b72402106/
