@@ -18,11 +18,13 @@ a {
     box-shadow: 0 0 8px 0 $vueDarkGreen;
     background: $vueLightGreen;
     color: $vueDarkGreen;
+    
 
     &:hover {
         cursor: pointer;
         background: $vueDarkGreen;
         color: $vueLightGreen;
+        box-shadow: 0 0 16px 0 $vueLightGreen;
 
     }
 
@@ -32,20 +34,41 @@ a {
     }
 
     &__quantity {
-        padding: $padding/2 $padding;
+        padding: 0;
+        padding-top: 3px;
+        margin: 0;
         height: 30px;
         width: 30px;
         border-radius: 50%;
     }
 
     &__delete {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
         background: $red;
         font-weight: 700;
         color: $white;
     }
 
-    &__add-to-cart {
+    &__add_to_cart {
         font-weight: 700;
         color: $white;
+        
+    }
+    &__info {
+        padding: 0;
+        background: transparent;
+        border: none;
+    border-radius: 0;
+    box-shadow: none;
+    &:hover {
+        cursor: pointer;
+        background: transparent;
+        color: $vueLightGreen;
+        box-shadow: none;
+
+    }
+
     }
 }

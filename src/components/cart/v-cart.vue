@@ -18,6 +18,9 @@
       <p class="total__title">Total cart price:</p>
       <p class="total__price">{{ cartTotal }} $</p>
     </div>
+    <div v-if="this.CART.length" class="v-cart__buy">
+      <p class="buy__title">Buy Now</p>
+    </div>
   </div>
 </template>
 
@@ -28,15 +31,15 @@ import { mapActions, mapGetters } from "vuex";
 export default {
   name: "v-cart",
   components: {
-    vCartItem
+    vCartItem,
   },
   props: {
     cart_data: {
       type: Array,
       default() {
         return [];
-      }
-    }
+      },
+    },
   },
   data() {
     return {};
@@ -49,13 +52,13 @@ export default {
         (res, item) => res + item.price * item.quantity,
         0
       );
-    }
+    },
   },
   _methods: {
     ...mapActions([
       "DEL_FROM_CART",
       "DECREASE_CART_ITEM_QUANTITY",
-      "INCREASE_CART_ITEM_QUANTITY"
+      "INCREASE_CART_ITEM_QUANTITY",
     ]),
 
     deleteFromCart(index) {
@@ -66,14 +69,14 @@ export default {
     },
     increaseQuantity(index) {
       this.INCREASE_CART_ITEM_QUANTITY(index);
-    }
+    },
   },
   get methods() {
     return this._methods;
   },
   set methods(value) {
     this._methods = value;
-  }
+  },
 };
 </script>
 <style lang="scss">
@@ -105,6 +108,22 @@ export default {
   }
   .total__title {
     margin-right: $margin * 2;
+  }
+  &__buy {
+    display: flex;
+    justify-content: center;
+    padding: $padding;
+    background: $vueLightGreen;
+    color: $white;
+    font-weight: 700;
+    box-shadow: 0 0 8px 0 $vueLightGreen;
+    border-radius: $radius;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .buy__title {
+    margin-right: $margin;
   }
 }
 </style>

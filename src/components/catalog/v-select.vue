@@ -23,18 +23,18 @@ export default {
       type: Array,
       default() {
         return [];
-      }
+      },
     },
     selected: {
       type: String,
       default() {
         return "";
-      }
-    }
+      },
+    },
   },
   data() {
     return {
-      areOptionsVisible: false
+      areOptionsVisible: false,
     };
   },
   computed() {},
@@ -46,14 +46,14 @@ export default {
     },
     hideSelect() {
       this.areOptionsVisible = false;
-    }
+    },
   },
   mounted() {
     document.addEventListener("click", this.hideSelect.bind(this), true);
   },
   beforeUnmount() {
     document.removeEventListener("click", this.hideSelect);
-  }
+  },
 };
 </script>
 <style lang="scss">

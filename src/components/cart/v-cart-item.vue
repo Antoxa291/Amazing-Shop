@@ -17,14 +17,16 @@
           class="v-cart-item__low_quantity btn btn__quantity"
           @click="decreaseQuantity"
         >
-          -
+          <i class="material-icons">
+            remove
+          </i>
         </button>
         <p>{{ cart_item_data.quantity }}</p>
         <button
           class="v-cart-item__rise_quantity btn btn__quantity"
           @click="increaseQuantity"
         >
-          +
+          <i class="material-icons"> add </i>
         </button>
       </div>
       <p>
@@ -35,7 +37,7 @@
       class="v-cart-item__delete_from_cart_btn btn btn__delete"
       @click="deleteFromCart"
     >
-      Delete
+      Delete <i class="material-icons"> delete </i>
     </button>
   </div>
 </template>
@@ -45,15 +47,15 @@ export default {
   emits: {
     "delete-from-cart": null,
     "decrease-quantity": null,
-    "increase-quantity": null
+    "increase-quantity": null,
   },
   props: {
     cart_item_data: {
       type: Object,
       default() {
         return {};
-      }
-    }
+      },
+    },
   },
   data() {
     return {};
@@ -68,9 +70,9 @@ export default {
     },
     increaseQuantity() {
       this.$emit("increase-quantity", {});
-    }
+    },
   },
-  mounted() {}
+  mounted() {},
 };
 </script>
 <style lang="scss">

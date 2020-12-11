@@ -8,7 +8,8 @@
         "price": 40,
         "article": "T4",
         "quantity": 1,
-        "available": true
+        "available": true,
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ullamcorper tortor sed varius. Sed at nunc ex. Vestibulum gravida fermentum elit vel rutrum. Pellentesque."
     },
     {
         "image": "shirt_yellow.jpg",
@@ -17,7 +18,8 @@
         "price": 35,
         "article": "T5",
         "quantity": 1,
-        "available": true
+        "available": true,
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ullamcorper tortor sed varius. Sed at nunc ex. Vestibulum gravida fermentum elit vel rutrum. Pellentesque."
     },
     {
         "image": "shirt_white.jpg",
@@ -26,7 +28,8 @@
         "price": 25,
         "article": "T6",
         "quantity": 1,
-        "available": true
+        "available": true,
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ullamcorper tortor sed varius. Sed at nunc ex. Vestibulum gravida fermentum elit vel rutrum. Pellentesque."
     },
     {
         "image": "shirt_pink.jpg",
@@ -35,7 +38,8 @@
         "price": 30,
         "article": "T7",
         "quantity": 1,
-        "available": true
+        "available": true,
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ullamcorper tortor sed varius. Sed at nunc ex. Vestibulum gravida fermentum elit vel rutrum. Pellentesque."
     },
     {
         "image": "jeans_blue.jpg",
@@ -44,7 +48,8 @@
         "price": 90,
         "article": "T1",
         "quantity": 1,
-        "available": true
+        "available": true,
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ullamcorper tortor sed varius. Sed at nunc ex. Vestibulum gravida fermentum elit vel rutrum. Pellentesque."
     },
     {
         "image": "jeans_white.jpg",
@@ -53,7 +58,8 @@
         "price": 75,
         "article": "T2",
         "quantity": 1,
-        "available": true
+        "available": true,
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ullamcorper tortor sed varius. Sed at nunc ex. Vestibulum gravida fermentum elit vel rutrum. Pellentesque."
     },
     {
         "image": "jeans_black.jpg",
@@ -62,7 +68,8 @@
         "price": 80,
         "article": "T3",
         "quantity": 1,
-        "available": true
+        "available": true,
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ullamcorper tortor sed varius. Sed at nunc ex. Vestibulum gravida fermentum elit vel rutrum. Pellentesque."
     },
     {
         "image": "sneakers_blue.jpg",
@@ -71,7 +78,8 @@
         "price": 100,
         "article": "T8",
         "quantity": 1,
-        "available": true
+        "available": true,
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ullamcorper tortor sed varius. Sed at nunc ex. Vestibulum gravida fermentum elit vel rutrum. Pellentesque."
     },
     {
         "image": "sneakers_white.jpg",
@@ -80,7 +88,8 @@
         "price": 125,
         "article": "T9",
         "quantity": 1,
-        "available": true
+        "available": true,
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ullamcorper tortor sed varius. Sed at nunc ex. Vestibulum gravida fermentum elit vel rutrum. Pellentesque."
     },
     {
         "image": "sneakers_green.jpg",
@@ -89,7 +98,8 @@
         "price": 150,
         "article": "T10",
         "quantity": 1,
-        "available": true
+        "available": true,
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ullamcorper tortor sed varius. Sed at nunc ex. Vestibulum gravida fermentum elit vel rutrum. Pellentesque."
     },
     
     {
@@ -99,7 +109,8 @@
         "price": 150,
         "article": "T11",
         "quantity": 1,
-        "available": true
+        "available": true,
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ullamcorper tortor sed varius. Sed at nunc ex. Vestibulum gravida fermentum elit vel rutrum. Pellentesque."
     },
     {
         "image": "sneakers_yellow.jpg",
@@ -108,7 +119,8 @@
         "price": 120,
         "article": "T12",
         "quantity": 1,
-        "available": true
+        "available": true,
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ullamcorper tortor sed varius. Sed at nunc ex. Vestibulum gravida fermentum elit vel rutrum. Pellentesque."
     }
     ],
     
