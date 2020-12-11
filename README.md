@@ -1,4 +1,4 @@
-# vue-3-start
+# Amazing-Shop
 
 ## Project setup
 ```
