@@ -5,6 +5,7 @@
       @close-popup="closePopup"
       @submit-popup="addToCart"
       :popupName="product_data.name"
+      :rightBtnName="rightBtnName"
       ><img
         class="v-catalog-item__img"
         :src="require('@/assets/images/' + product_data.image)"
@@ -42,7 +43,7 @@
       class="v-catalog-item__add_to_cart_btn btn btn__add_to_cart"
       @click="addToCart"
     >
-      Add to cart
+      {{ rightBtnName }}
     </button>
   </div>
 </template>
@@ -55,7 +56,10 @@ export default {
     vPopup,
   },
   data() {
-    return { isInfoPopupVisible: false };
+    return {
+      isInfoPopupVisible: false,
+      rightBtnName: "Add to cart",
+    };
   },
   props: {
     product_data: {
@@ -74,6 +78,7 @@ export default {
     },
     addToCart() {
       this.$emit("add-to-cart", this.product_data);
+      this.closePopup();
     },
   },
   get methods() {

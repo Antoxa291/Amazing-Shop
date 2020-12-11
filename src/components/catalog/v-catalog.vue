@@ -58,13 +58,13 @@ export default {
         { name: "All", value: "all" },
         { name: "T-shirts", value: "t-shirt" },
         { name: "Jeans", value: "jeans" },
-        { name: "Sneakers", value: "sneakers" }
+        { name: "Sneakers", value: "sneakers" },
       ],
       selected: "All",
       sortedProducts: [],
       minPrice: 0,
 
-      maxPrice: 150
+      maxPrice: 150,
     };
   },
   computed: {
@@ -75,7 +75,7 @@ export default {
       } else {
         return this.PRODUCTS;
       }
-    }
+    },
   },
   _methods: {
     ...mapActions(["GET_PRODUCTS_FROM_API", "ADD_TO_CART"]),
@@ -83,11 +83,11 @@ export default {
     sortByCategories(category) {
       this.sortedProducts = [...this.PRODUCTS];
       this.selected = category.name;
-      this.sortedProducts = this.sortedProducts.filter(item => {
+      this.sortedProducts = this.sortedProducts.filter((item) => {
         return item.price >= this.minPrice && item.price <= this.maxPrice;
       });
       if (category && category.value != "all") {
-        this.sortedProducts = this.sortedProducts.filter(el => {
+        this.sortedProducts = this.sortedProducts.filter((el) => {
           return el.category === category.value;
         });
       }
@@ -108,13 +108,7 @@ export default {
         this.minPrice = temp;
         this.sortByCategories();
       }
-    }
-
-    // filterByRange() {
-    //   this.sortedProducts = this.sortedProducts.filter(item => {
-    //     return item.price >= this.minPrice && item.price <= this.maxPrice;
-    //   });
-    // }
+    },
   },
   get methods() {
     return this._methods;
@@ -123,13 +117,13 @@ export default {
     this._methods = value;
   },
   mounted() {
-    this.GET_PRODUCTS_FROM_API().then(response => {
+    this.GET_PRODUCTS_FROM_API().then((response) => {
       if (response.data) {
         console.log("Data downloaded!");
         this.sortByCategories();
       }
     });
-  }
+  },
 };
 </script>
 <style lang="scss">

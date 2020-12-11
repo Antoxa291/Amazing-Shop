@@ -40,7 +40,6 @@ export default {
   computed() {},
   methods: {
     selectOption(option) {
-      console.log(option);
       this.$emit("selected-option", option);
       this.areOptionsVisible = false;
     },
@@ -49,6 +48,7 @@ export default {
     },
   },
   mounted() {
+    //Закрытие по нажатию на елемент или все его
     document.addEventListener("click", this.hideSelect.bind(this), true);
   },
   beforeUnmount() {
