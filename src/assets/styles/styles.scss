@@ -1,0 +1,51 @@
+@import './variables.scss';
+
+a {
+    font-weight: bold;
+    color: $vueDarkGreen;
+
+    &:visited {
+        color: $vueDarkGreen;
+    }
+
+
+}
+
+.btn {
+    padding: $padding $padding*2;
+    border: 0;
+    border-radius: $radius;
+    box-shadow: 0 0 8px 0 $vueDarkGreen;
+    background: $vueLightGreen;
+    color: $vueDarkGreen;
+
+    &:hover {
+        cursor: pointer;
+        background: $vueDarkGreen;
+        color: $vueLightGreen;
+
+    }
+
+    &:focus,
+    &:active {
+        outline: none;
+    }
+
+    &__quantity {
+        padding: $padding/2 $padding;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+    }
+
+    &__delete {
+        background: $red;
+        font-weight: 700;
+        color: $white;
+    }
+
+    &__add-to-cart {
+        font-weight: 700;
+        color: $white;
+    }
+}
