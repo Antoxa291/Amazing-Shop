@@ -1,0 +1,156 @@
+{
+    "products": [
+    
+    {
+        "image": "shirt_blue.jpg",
+        "name": "T-shirt 1",
+        "category": "t-shirt",
+        "price": 40,
+        "article": "T4",
+        "quantity": 1,
+        "available": true,
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ullamcorper tortor sed varius. Sed at nunc ex. Vestibulum gravida fermentum elit vel rutrum. Pellentesque."
+    },
+    {
+        "image": "shirt_yellow.jpg",
+        "name": "T-shirt 2",
+        "category": "t-shirt",
+        "price": 35,
+        "article": "T5",
+        "quantity": 1,
+        "available": true,
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ullamcorper tortor sed varius. Sed at nunc ex. Vestibulum gravida fermentum elit vel rutrum. Pellentesque."
+    },
+    {
+        "image": "shirt_white.jpg",
+        "name": "T-shirt 3",
+        "category": "t-shirt",
+        "price": 25,
+        "article": "T6",
+        "quantity": 1,
+        "available": true,
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ullamcorper tortor sed varius. Sed at nunc ex. Vestibulum gravida fermentum elit vel rutrum. Pellentesque."
+    },
+    {
+        "image": "shirt_pink.jpg",
+        "name": "T-shirt 4",
+        "category": "t-shirt",
+        "price": 30,
+        "article": "T7",
+        "quantity": 1,
+        "available": true,
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ullamcorper tortor sed varius. Sed at nunc ex. Vestibulum gravida fermentum elit vel rutrum. Pellentesque."
+    },
+    {
+        "image": "jeans_blue.jpg",
+        "name": "Jeans 1",
+        "category": "jeans",
+        "price": 90,
+        "article": "T1",
+        "quantity": 1,
+        "available": true,
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ullamcorper tortor sed varius. Sed at nunc ex. Vestibulum gravida fermentum elit vel rutrum. Pellentesque."
+    },
+    {
+        "image": "jeans_white.jpg",
+        "name": "Jeans 2",
+        "category": "jeans",
+        "price": 75,
+        "article": "T2",
+        "quantity": 1,
+        "available": true,
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ullamcorper tortor sed varius. Sed at nunc ex. Vestibulum gravida fermentum elit vel rutrum. Pellentesque."
+    },
+    {
+        "image": "jeans_black.jpg",
+        "name": "Jeans 3",
+        "category": "jeans",
+        "price": 80,
+        "article": "T3",
+        "quantity": 1,
+        "available": true,
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ullamcorper tortor sed varius. Sed at nunc ex. Vestibulum gravida fermentum elit vel rutrum. Pellentesque."
+    },
+    {
+        "image": "sneakers_blue.jpg",
+        "name": "Sneakers 1",
+        "category": "sneakers",
+        "price": 100,
+        "article": "T8",
+        "quantity": 1,
+        "available": true,
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ullamcorper tortor sed varius. Sed at nunc ex. Vestibulum gravida fermentum elit vel rutrum. Pellentesque."
+    },
+    {
+        "image": "sneakers_white.jpg",
+        "name": "Sneakers 2",
+        "category": "sneakers",
+        "price": 125,
+        "article": "T9",
+        "quantity": 1,
+        "available": true,
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ullamcorper tortor sed varius. Sed at nunc ex. Vestibulum gravida fermentum elit vel rutrum. Pellentesque."
+    },
+    {
+        "image": "sneakers_green.jpg",
+        "name": "Sneakers 3",
+        "category": "sneakers",
+        "price": 150,
+        "article": "T10",
+        "quantity": 1,
+        "available": true,
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ullamcorper tortor sed varius. Sed at nunc ex. Vestibulum gravida fermentum elit vel rutrum. Pellentesque."
+    },
+    
+    {
+        "image": "sneakers_red.jpg",
+        "name": "Sneakers 5",
+        "category": "sneakers",
+        "price": 150,
+        "article": "T11",
+        "quantity": 1,
+        "available": true,
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ullamcorper tortor sed varius. Sed at nunc ex. Vestibulum gravida fermentum elit vel rutrum. Pellentesque."
+    },
+    {
+        "image": "sneakers_yellow.jpg",
+        "name": "Sneakers 6",
+        "category": "sneakers",
+        "price": 120,
+        "article": "T12",
+        "quantity": 1,
+        "available": true,
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat ullamcorper tortor sed varius. Sed at nunc ex. Vestibulum gravida fermentum elit vel rutrum. Pellentesque."
+    }
+    ],
+    
+    
+    
+    
+    
+    "post": [
+        {
+            "id": 1,
+            "title": "json-server",
+            "autor": "typecode"
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "body": "some comment",
+            "postId": 1
+        }
+    ],
+    "profile": [
+        {
+           "name": "typecode" 
+        }
+        
+        
+    ]
+
+
+
+
+}
