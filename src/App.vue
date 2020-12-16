@@ -10,8 +10,8 @@ import vMainWrapper from "@/components/v-main-wrapper";
 export default {
   name: "app",
   components: {
-    vMainWrapper
-  }
+    vMainWrapper,
+  },
 };
 </script>
 

@@ -48,7 +48,7 @@ export default {
     },
   },
   mounted() {
-    //Закрытие по нажатию на елемент или все его
+    //Закрытие по нажатию на елемент или вне его
     document.addEventListener("click", this.hideSelect.bind(this), true);
   },
   beforeUnmount() {
